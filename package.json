@@ -1,0 +1,19 @@
+{
+    "name": "typescript-ioc",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "clean": "rimraf tmp",
+        "compile": "tsc",
+        "things": "tsc && node tmp/app"
+    },
+    "author": "ducksoupdev@gmail.com",
+    "license": "ISC",
+    "devDependencies": {
+        "inversify": "^2.0.0-alpha.3",
+        "reflect-metadata": "^0.1.3",
+        "rimraf": "^2.5.2",
+        "typescript": "^1.8.9"
+    }
+}

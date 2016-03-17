@@ -1,0 +1,9 @@
+{
+  "name": "typescript-ioc",
+  "version": false,
+  "dependencies": {},
+  "ambientDependencies": {
+    "bluebird": "registry:dt/bluebird#2.0.0+20160316155526",
+    "inversify": "file:node_modules/inversify/type_definitions/inversify/inversify.d.ts"
+  }
+}
